@@ -11,4 +11,13 @@ I earned all my current knowledge on my own.
    - Reporting for managers
    - Product and Client Analysis
    - Create Dashboards, making data vissualisation
+
+#### PROFESSIONALS SKILLS:
+
+* HTML, CSS
+* JavaScript
+* SQL
+  - PostgreSQL
+* Git
+* IDE: VS Code
  
