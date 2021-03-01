@@ -14,12 +14,17 @@ I earned all my current knowledge on my own.
 
 #### PROFESSIONALS SKILLS:
 
-* HTML, CSS
-* JavaScript
-* SQL
-  - PostgreSQL
-* Git
-* IDE: VS Code
+ * HTML, CSS
+ * JavaScript
+ * SQL
+   - PostgreSQL
+ * Python
+    - NumPy
+    - Pandas
+    - Seaborn
+ * BI Tools (Tableau, Qlik)
+ * Git
+ * IDE: VS Code, PyCharm, Jupyter Notebook
 
 #### MY CODE 
  - My [codewars](https://www.codewars.com/users/SaXaPhonist)
