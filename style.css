@@ -1,0 +1,80 @@
+* {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+
+a{
+    text-decoration: none;
+}
+
+.cv {
+    background-color: lightcyan;
+    width: 40%;
+    height: auto;
+    display: flexbox;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+header{
+    background-color: bisque;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    }
+.profile_img{
+    background-color: antiquewhite;
+    flex-grow: 7;
+    width: 10em;
+    height: 19em;
+    
+    }
+    
+
+.resume_profile{
+    width: 60%;
+    flex-grow: 3;
+    margin-left: 3%;
+}    
+
+.initials {
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+.about {
+    margin-left:  2%;
+}
+
+
+
+
+.contacts_div {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 30px;
+    }
+
+.contact {
+    display: flex;
+    min-width: 50px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.item {
+ border-left: grey solid 1px;
+ padding-left: 5px;
+ margin: 10px;
+
+}
+
