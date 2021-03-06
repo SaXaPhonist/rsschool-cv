@@ -1,5 +1,5 @@
 * {
-    list-style: none;
+    
     font-family: "Montserrat", sans-serif;
   }
   
@@ -9,7 +9,7 @@ a{
 }
 
 .cv {
-    background-color: lightcyan;
+    background-color:#B9DEDF;
     width: 40%;
     height: auto;
     display: flexbox;
@@ -18,20 +18,25 @@ a{
 }
 
 header{
-    background-color: bisque;
+    background-color: #ECECEC;
     width: 100%;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     }
+
 .profile_img{
     background-color: antiquewhite;
     flex-grow: 7;
     width: 10em;
-    height: 19em;
+    height: 20em;
     
     }
     
+.contact_list {
+    list-style: none;
+    display: inline;
+}
 
 .resume_profile{
     width: 60%;
@@ -41,21 +46,43 @@ header{
 
 .initials {
     margin-left: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .about {
+    color: #434745;
+    margin-top: 5%;
+    font-size: 0.9em;
     margin-left:  2%;
 }
 
-
-
-
-.contacts_div {
-    display: flex;
-    flex-flow: row wrap;
+.info{
     margin-bottom: 30px;
-    }
+}
+.info :last-child {margin-bottom: 0px;}
+
+.date {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.position {
+    font-size: 0.98em;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.duties{
+    font-size: 0.9em;
+    color: #434745;
+    margin-bottom: 10px;
+}
+
+.duties :last-child {
+    margin-bottom: 0px;
+}
+
 
 .contact {
     display: flex;
@@ -67,14 +94,21 @@ header{
 
 .container{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column;
+    /* flex-wrap: wrap; */
     margin-bottom: 30px;
 }
 
 .item {
- border-left: grey solid 1px;
+ border-left:2px solid #060d0f;
  padding-left: 5px;
  margin: 10px;
-
+ margin-right: 1.5em;
 }
 
+.list div  {
+    margin-bottom: 5px;    
+}
+.list div :last-child {
+    margin-bottom: 0px;
+}

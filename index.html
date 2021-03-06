@@ -1,8 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>My CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,74 +12,107 @@
         <header>
         
             <div class="profile_img">
-                <img src="big cat.jpg" alt="cat" width="100%" height="100%">    
+                <img src="images/big_cat.jpg" alt="cat" width="100%" height="100%">    
                 </div>      
             <div class="resume_profile">
                 <div class="initials">
                         <h1>Ales Belarus</h1>
-                        <p> <em>Junior Frontednd Developer</em> </p>
+                        <p> Junior Frontend Developer </p>
                     </div>    
                 <div class="contacts_div">
-                    <div class="contact "> 
-                        <div class="contact_img"></div>
-                        <div class="conctact_mail">
-                            Email:<a href="mailto: drdr1282@mail.ru"> drdr1282@mail.ru</a>
+                    <ul class="contact_list">
+                         <div class="contact ">
+                            <li>  
+                                <div class="contact_img"></div>
+                                <div class="conctact_mail">
+                                    Email:<a href="mailto: drdr1282@mail.ru">drdr1282@mail.ru</a>;
+                                </div>
+                            </li>    
+                         </div>
+                          
+                        <div class="contact ">
+                            <li> 
+                                <div class="contact_img"></div>
+                                <div class="conctact_tel">
+                                    Tel.<a href="tel:+375298502440"> +375(29)850-24-40</a>;
+                                </div>
+                            </li>    
+                         </div>
+                         <div class="contact">
+                            <li> 
+                                <div class="contact_img"></div>
+                                <div class="conctact_git">
+                                    GitHub:<a href="https://github.com/SaXaPhonist" target="blanck"> SaXaPhonist</a>
+                                </div>
+                            </li>    
                         </div>
-                    </div>
-                    <div class="contact "> 
-                        <div class="contact_img"></div>
-                        <div class="conctact_tel">
-                            Tel.<a href="tel:+375298502440"> +375(29)850-24-40</a>
-                        </div>
-                    </div>
-                
-                    <div class="contact"> 
-                        <div class="contact_img"></div>
-                        <div class="conctact_git">
-                            GitHub:<a href="https://github.com/" target="_blanck"> SaXaPhonist</a>
-                        </div>
-                    </div>
+                          
+                    </ul>
                 </div>
-                <div class="about">
-                    I want to become a very cool frontend developer. I try hard and learn all by myself <br>
-                    This is my first web-site. <br>
-                                        
-                </div>
+                <article>
+                    <div class="about">
+                        I'm 21 years old. I live in Minks <br>
+                        My goal is to become a professional frontend developer. <br>
+                        I am ready to study hard and work hard to achieve my goal. <br>                   
+                    </div>
+                </article>    
             </div>
         
         </header>
         <main>
             <div class="container">
-                <section><div class="item">
-                    <div class="article_name">
-                        <h2>Expirience</h2>
+                <section>
+                    <div class="item">
+                        <div class="article_name">
+                            <h2>Education</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="date">2016 - 2020</div>
+                                <div class="info"> 
+                                    <p class="position">"BSEU", Bank faculty</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <ul>
-                        <li>
-                            <div class="date">2018 - 2019</div>
-                            <div class="info"> 
-                                <p>Salesman in Bank</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="date">2019 - present</div>
-                            <div class="info"> 
-                                <p>Work as Analyst <br> in One Big Company</p>
-                            </div>
-                        </li>
+                </section>
+                <section>
+                    <div class="item">
+                        <div class="article_name">
+                            <h2>Experience</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="date">2018 - 2019</div>
+                                <div class="info"> 
+                                    <p class="position">Salesman in Bank</p>
+                                    <p class="duties">Sales of banking products to customers. 
+                                        Doing hot and cold calls.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">2019 - present</div>
+                                <div class="info"> 
+                                    <p class="position">Analyst</p>
+                                    <p class="duties">Reporting for managers.
+                                        Making product and Client Analysis</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </section>
                 <section>
                     <div class="item ">
-                        <div class="acticle_name">
+                        <div class="article_name">
                             <h2>Professionals Skills</h2>
                         </div>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML, CSS</li>
-                                <li>SQL</li>
-                                <li>Python (Pandas, NumPy)</li>
-                                <li>GIT</li>
+                            <ul class="list">
+                                <div><li>JavaScript</li> </div>
+                                <div><li>HTML, CSS</li> </div>
+                                <div><li>SQL</li> </div>
+                                <div><li>Python (Pandas, NumPy)</li></div>
+                                <div><li>GIT</li></div>
+                                <div><li>English: B1</li></div>
                                 
                             </ul>
                     </div>
@@ -86,16 +120,15 @@
                 <section>
                     <div class="item">
                         <h2>Interests</h2>
-                            <ul>
-                                <li>Travelling</li>
-                                <li>Reading</li>
-                                <li>Music</li>
-                                <li>Old movies</li>
-                                                
+                            <ul class="list">
+                                <div><li>Travelling</li></div>
+                                <div><li>Reading</li></div>
+                                <div><li>Music</li></div>
+                                <div><li>Old movies</li></div>                  
                             </ul>
                     </div>
                 </section>
-
+                
             </div>
         </main>
 </div>
