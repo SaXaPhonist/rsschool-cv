@@ -29,14 +29,28 @@ header{
     background-color: antiquewhite;
     flex-grow: 7;
     width: 10em;
-    height: 20em;
-    
+    height: 21em;
     }
+
+ .profile_img img {
+     width: 100%;
+     height: 100%;
+ }   
     
 .contact_list {
+    color: #434745;
     list-style: none;
-    display: inline;
+    display: block;
+    padding: 0;
+    margin-left: 2%;
+    margin-bottom: 5%;
 }
+
+.contact_list li {
+    margin-bottom: 2%;    
+}
+
+.contact_list li :last-child { margin-bottom: 0;}
 
 .resume_profile{
     width: 60%;
@@ -46,14 +60,26 @@ header{
 
 .initials {
     margin-left: 2%;
-    margin-bottom: 5%;
+}
+
+
+.initials p {
+    font-weight: 520;
+    color: black;
+    margin-bottom: 7%;
 }
 
 .about {
     color: #434745;
-    margin-top: 5%;
+    
     font-size: 0.9em;
     margin-left:  2%;
+}
+
+.about3 {
+    margin-bottom: 2%;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 .info{
@@ -83,32 +109,23 @@ header{
     margin-bottom: 0px;
 }
 
-
-.contact {
-    display: flex;
-    min-width: 50px;
-    margin-bottom: 2%;
-    margin-left: 2%;
-}
-
-
 .container{
     display: flex;
     flex-flow: column;
-    /* flex-wrap: wrap; */
     margin-bottom: 30px;
 }
 
 .item {
  border-left:2px solid #060d0f;
  padding-left: 5px;
+ display: block;
  margin: 10px;
  margin-right: 1.5em;
 }
 
-.list div  {
+.list li  {
     margin-bottom: 5px;    
 }
-.list div :last-child {
+.list li :last-child {
     margin-bottom: 0px;
 }
