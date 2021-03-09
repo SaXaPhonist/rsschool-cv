@@ -78,9 +78,18 @@ header{
     margin-left:  2%;
 }
 
-code p {
+p mark {
     margin-left: 15px;
+    line-height: 5px;
 }
+
+pre,
+code {
+  
+  color: #6a2cce;
+}
+
+
 
 .about3 {
     margin-bottom: 2%;
